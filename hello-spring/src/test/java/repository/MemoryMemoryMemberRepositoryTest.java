@@ -1,15 +1,11 @@
 package repository;
 
-import hellp.hellospring.domain.Member;
-import hellp.hellospring.repository.MemberRepository;
-import hellp.hellospring.repository.MemoryMemberRepository;
-import org.junit.jupiter.api.AfterAll;
+import hello.hellospring.domain.Member;
+import hello.hellospring.repository.MemoryMemberRepository;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-import java.util.Optional;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
